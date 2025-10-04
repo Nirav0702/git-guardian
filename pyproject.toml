@@ -1,5 +1,5 @@
 [project]
-name = "git-guardian-ai" # Note: 'git-guardian' might be taken. Choose a unique name.
+name = "ai-git-guardian" # Note: 'git-guardian' might be taken. Choose a unique name.
 version = "0.1.0"
 description = "An AI-powered Git pre-commit hook using Ollama to review code."
 authors = [{ name = "Your Name", email = "your@email.com" }]
