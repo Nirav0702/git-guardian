@@ -17,3 +17,26 @@ Install the package using pip:
 
 ```bash
 pip install git-guardian-ai
+````
+
+## Usage
+Navigate to your Git repository:
+
+```bash
+cd /path/to/your/project
+````
+**Run the install command**: This sets up the pre-commit hook in your repository's .git folder.
+
+````bash
+guardian install
+````
+
+**(Optional) Configure Guardian**: Create a .guardian.toml file in the root of your repository to customize the settings.
+
+````bash
+# .guardian.toml
+model = "llama3:8b"
+block_on = ["security", "logic"]
+warn_on = ["performance", "style"]
+````
+Now, whenever you run git commit, the Guardian will automatically analyze your staged changes!
